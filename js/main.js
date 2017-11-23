@@ -511,22 +511,22 @@ function moveRobot() {
     switch(startingTile) {
         case 1: {
             rx = 24;
-            ry = 48;
+            ry = 96;
             break;
         }
         case 2: {
             rx = 48;
-            ry = 24;
+            ry = 120;
 			break;
         }
 		case 3: {
 			rx = 96;
-			ry = 120;
+			ry = 24;
 			break;
 		}
 		case 4: {
 			rx = 120;
-			ry = 96;
+			ry = 48;
 			break;
 		}
     }
